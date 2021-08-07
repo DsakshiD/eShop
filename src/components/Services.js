@@ -11,10 +11,10 @@ const Services = () => {
             custom furniture <br />
             built only for you
           </h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-            quisquam saepe id reiciendis sunt, repudiandae libero amet rem quia
-            quod?
+          <p style={{fontSize:24}}>
+            <i>
+            "It's comfort first, comfort last, comfort always..."
+            </i>
           </p>
         </article>
         <div className='services-center'>

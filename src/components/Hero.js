@@ -1,20 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import heroBcg from '../assets/hero-bcg.jpeg'
-import heroBcg2 from '../assets/hero-bcg-2.jpeg'
+import heroBcg from '../assets/feature1.jpg'
+import heroBcg2 from '../assets/feature2.jpg'
 
 const Hero = () => {
   return (
     <Wrapper className='section-center'>
       <article className='content'>
         <h1>
-          design your <br />
+          Shop from your <br />
           comfort zone
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure
-          quasi odit tenetur unde officiis repudiandae quod deserunt quia eum?
+          Hassale to go outside that too during covid time?
+           Dont worry, we will deliver them at your doorstep..!!!
         </p>
         <Link to='/products' className='btn hero-btn'>
           shop now

@@ -15,12 +15,9 @@ const AboutPage = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            quaerat, modi doloremque necessitatibus eum dolor nesciunt delectus,
-            voluptate blanditiis, obcaecati beatae ab aut ipsa consequuntur
-            tempora cumque. Ut quo enim vero odio minus nostrum eveniet,
-            doloribus veritatis dolorem unde ipsum, voluptatibus totam.
-            Explicabo, quas libero! Laborum incidunt minima consequatur ratione?
+          e-Shop has been spreading smiles since 1992.
+           It started from the city of Panipat, now welcoming customers 
+           from all over the country. It was founded by Sakshi who is presently CEO of the company.
           </p>
         </article>
       </Wrapper>
