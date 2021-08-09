@@ -17,6 +17,11 @@ export const links = [
     text: 'products',
     url: '/products',
   },
+  {
+    id:4,
+    text:'profile',
+    url:'/profile'
+  }
 ]
 
 export const services = [
