@@ -8,8 +8,12 @@ export const UserProvider = ({ children }) => {
 	const [myUser, setMyUser] = useState(null);
 
 	useEffect(() => {
-		let userDetails = JSON.parse(localStorage.getItem(user?.nickname)) || {};
-		setMyUser({ ...user, ...userDetails });
+		if (user) {
+			let userDetails = JSON.parse(localStorage.getItem(user?.nickname)) || {};
+			setMyUser({ ...user, ...userDetails });
+		} else {
+			setMyUser(user);
+		}
 	}, [user]);
 
 	return (
